@@ -2,11 +2,11 @@
   "name": "tokenservice",
   "version": "1.0.0",
   "description": "Token service for meetup API",
-  "main": "tokenservice.js",
+  "main": "tokenservice.cjs",
   "type": "module",
   "scripts": {
-    "start": "node tokenservice.js",
-    "dev": "nodemon tokenservice.js"
+    "start": "node tokenservice.cjs",
+    "dev": "nodemon tokenservice.cjs"
   },
   "dependencies": {
     "express": "^4.18.2",
